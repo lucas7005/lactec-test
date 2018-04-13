@@ -1,11 +1,9 @@
 package telas;
 
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.JButton;
 
 public class Main {
@@ -59,6 +57,7 @@ public class Main {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
+				
 				new Consulta();
 				
 			}
@@ -71,6 +70,7 @@ public class Main {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
+				
 				new Listar();
 				
 			}
@@ -83,6 +83,7 @@ public class Main {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
+				
 				System.exit(0);
 				
 			}
