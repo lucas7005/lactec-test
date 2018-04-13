@@ -1,7 +1,5 @@
 CREATE DATABASE `mydb`;
 
-
-
 CREATE TABLE IF NOT EXISTS `mydb`.`cliente` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(45) NOT NULL,
